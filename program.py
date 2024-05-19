@@ -22,7 +22,7 @@ program = tkinter.Tk()
 program.geometry("330x280")
 program.title("YouTube MP3 Converter")
 
-img = Image.open("mp3_logo.jpg")
+img = Image.open("pictures/mp3_logo.jpg")
 resize_img = img.resize((165,140))
 img2 = ImageTk.PhotoImage(resize_img)
 img_lbl = Label(image=img2)
