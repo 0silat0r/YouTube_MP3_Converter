@@ -16,6 +16,7 @@ def mp3_converter():
     new_file = base + '.mp3'
     os.rename(out_file, new_file)
     print(f"{yt.title} Başariyla Indirildi!")
+    print("Indirilen müziği Downloads klasörünün içinde bulabilirsiniz.")
     t1.delete("1.0","end")
 
 program = tkinter.Tk()
