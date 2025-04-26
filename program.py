@@ -39,6 +39,6 @@ b1.pack()
 b2 = Button(program, text="Quit",command=program.destroy)
 b2.pack()
 
-l2 = Label(program, text='Programming by cpu-astatine')
+l2 = Label(program, text='Programming by 0silat0r')
 l2.pack()
 program.mainloop()
